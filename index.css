@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(241, 236, 212);
+    color: rgb(25, 201, 49);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #1a1a2e;
+    color: #e94560;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s;
+}
+
+
+.navbar {
+    background-color: #16213e;
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-brand, .nav-link {
+    color: #e94560 !important;
+}
+
+.nav-link {
+    font-size: large;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color:aqua !important;
+    border-bottom: 4px solid #f09355;
+  }
+
+
+/* lo más impo */
+.featured {
+    background: linear-gradient(45deg, #e94560, #ff9a8b);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 170px;
+}
+
+.featured p{
+    color:#1a1a2e;
+    font-size:larger;
+    font-family:"Helvetica Neue", sans-serif;
+}
+
+.btn-glow {
+    box-shadow: 0 0 10px rgba(146, 34, 53, 0.8);
+}
+
+/* banner */
+#banner{
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 20px;
+}
+
+/* contenido */
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.container .row{
+    background-color: #16213e;
+    border-radius: 20px;
+}
+
+.card{
+    background-color: #8e44ad;
+    margin-top: 10PX;
+}
+
+
+.post-title {
+    color:darkorange;
+}
+
+
+/* redes */
+.social-icon {
+    font-size: 30px;
+    color: #13e2d1;
+    transition: color 0.3s ease;
+    padding: 10px;
+}
+
+.social-icon:hover {
+    color: #ff69b4;
+}
+
+
+#recomendado p{
+    font: 1.2em sans-serif;
+    margin-bottom: 67px;
+}
+
+/* games - contenido */
+#games img{
+    object-fit: cover;
+    padding: 5px;
+}
+
+.container .row{
+    background-color: #16213e;
+    border-radius: 20px;
+}
+
+.card{
+    background-color: #8e44ad;
+    margin-top: 15px;
+}
+
+.post-title {
+    color:darkorange;
+}
+
+.aside {
+    color:rgb(9, 255, 0);
+}
+
+
+.carousel-caption p{
+    color:#2e050c;
+}
+
+@media (min-width: 480px) and (max-width: 1366px) {
+    #recomendado img{
+        visibility: hidden;
+        display: none !important;
+    }
+
+    #recomendado h5{
+        visibility: hidden;
+        display: none !important;
+    }
+
+    #recomendado p{
+        visibility: hidden;
+        display: none !important;
+    }
+}
