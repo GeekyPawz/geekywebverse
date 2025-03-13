@@ -7,11 +7,11 @@ Inicio
 
 ##
 ##
-GeekyManga
 ![image](https://github.com/user-attachments/assets/4087ab1c-06c0-4772-8cc6-1a3d9301d85b)
 
 ##
 ##
+GeekyManga
 ![image](https://github.com/user-attachments/assets/8cf598e7-8768-4a7e-acfd-f81d60da6bd9)
 
 ##
